@@ -216,5 +216,11 @@ body{
 .corpo_foto{
     width: 80%;
 }
+.corpo_detalhe3_d3{
+    width: 50%;
+}
+.corpo_info_email{
+    font-size: 1rem;
+}
 }
 
