@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 *{
@@ -41,7 +41,7 @@ body{
  
 /* Cabecalho _______________________________________*/
 
-/*.cabecalho{
+.cabecalho{
     background-color: var(--Cor8);
     display: flex;
     flex-direction: row;
@@ -107,7 +107,7 @@ body{
 
 /* _____________________________________________________*/
 /* Corpo _____________________________________________________*/
-/*.corpo{
+.corpo{
     background-color: var(--Cor1);
     display: flex;
     flex-direction: column;
@@ -187,7 +187,7 @@ body{
 /* _____________________________________________________*/
 /* Rodapé_____________________________________________________*/
 
-/*.rodape{
+.rodape{
     background-color: var(--Cor2);
     display: flex;
     justify-content: flex-end;
@@ -201,7 +201,7 @@ body{
 @media (max-width:1200px) 
 /* _____________________________________________________*/
 /* Corpo _____________________________________________________*/
-/*{
+{
 
 .info{
     flex-direction: column-reverse;
@@ -218,143 +218,4 @@ body{
     width: 80%;
 }
 }
-*/
 
-*{
-    border: 0px;
-    margin: 0px;
-}
-
-body{
-    height: 100%;
-    min-height: -webkit-fill-available; /* 🟢 fix Safari iOS */
-}
-
-:root{
-    --Cor1: #E0E9ED;
-    --Cor2: #303030;
-    --Cor3: #78C4E0;
-    --Cor4: #111111;
-    --Cor5: #FFFFFF; 
-    --cor6: #EE7878;
-    --Cor7: #7AE3DA;
-    --Cor8: #282828;
-    --Cor9: #0A7EA8;
-    --fonte1:"Roboto", sans-serif;
-    --fonte2:"Roboto Mono", monospace;
-}
-
-/* Cabecalho _______________________________________*/
-.cabecalho{
-    background-color: var(--Cor8);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.3% 0% 0% 0%;
-}
-
-.cabecalho_botoes{
-    display: flex;
-    flex-direction: row;
-}
-
-.cabecalho_botoes_word_withe1,
-.cabecalho_botoes_word_withe2{
-    text-decoration: none;
-    background-color: var(--Cor2);
-    padding: 0.6rem 2rem; /* 🟢 trocado de % para rem */
-    border-radius: 8px;
-    color: var(--Cor5);
-    font-size: 1.5rem;
-    font-family: var(--fonte1);
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-/* hovers iguais aos acima */
-.cabecalho_botoes_word_withe1:hover{
-    background-color: var(--Cor3);
-    color: var(--Cor4);
-}
-.cabecalho_botoes_word_withe2:hover{
-    background-color: var(--Cor7);
-    color: var(--Cor4);
-}
-
-/* Corpo ___________________________________________*/
-.corpo{
-    background-color: var(--Cor1);
-    display: flex;
-    flex-direction: column;
-    min-height: 100dvh; /* 🟢 Safari 16+ */
-    min-height: -webkit-fill-available; /* 🟢 fallback iOS */
-}
-
-.info{
-    background-color: var(--Cor1);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 7% 16%;
-    gap: 82px;
-}
-
-/* Fallback gap Safari antigo */
-.info > * + * {
-    margin-left: 82px; /* 🟢 só funciona se gap não for aceito */
-}
-
-.corpo_info_nome{
-    font-size: 3rem;
-    font-family: var(--fonte2);
-    color: var(--Cor4);
-}
-
-.corpo_info_email{
-    font-size: 2rem;
-    font-family: var(--fonte2);
-    color: var(--Cor9);
-    padding-bottom: 1rem;
-}
-
-.corpo_foto{
-    width: 50%;
-}
-
-.corpo_info{
-    width: 50%;
-}
-
-/* Rodapé __________________________________________*/
-.rodape{
-    background-color: var(--Cor2);
-    display: flex;
-    justify-content: flex-end;
-}
-
-.rodape_detalhe4{
-    padding: 15px;
-}
-
-/* Responsivo _____________________________________*/
-@media (max-width:1200px){
-    .info{
-        flex-direction: column-reverse;
-        padding: 26% 8%;
-        gap: 82px;
-    }
-    .corpo_info{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .corpo_foto{
-        width: 80%;
-    }
-}
