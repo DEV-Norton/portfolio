@@ -220,7 +220,7 @@ body{
     width: 50%;
 }
 .corpo_info_email{
-    font-size: 1rem;
+    font-size: 5vw;
 }
 .cabecalho_botoes{
     width: 50%;
@@ -232,6 +232,9 @@ body{
 
 .cabecalho{
     padding: 5px;
+}
+.corpo_info_nome{
+    font-size: 5vw;
 }
 }
 
