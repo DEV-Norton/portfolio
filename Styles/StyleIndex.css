@@ -222,5 +222,16 @@ body{
 .corpo_info_email{
     font-size: 1rem;
 }
+.cabecalho_botoes{
+    width: 50%;
+}
+.cabecalho_logo
+{
+    width: 10%;
+}
+
+.cabecalho{
+    padding: 5px;
+}
 }
 
