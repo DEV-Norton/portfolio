@@ -27,8 +27,10 @@
     align-items: center;
 }
 
-.cabecalho_botoes_sobre_min,
+.cabecalho_botoes_sobre_min
+
 .cabecalho_botoes_profissional,
 .cabecalho_botoes_academico{
     text-decoration: none;
+
 }
