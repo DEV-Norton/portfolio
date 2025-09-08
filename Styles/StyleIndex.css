@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    border: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    height: 100%;
+}
+
+ :root{
+    --Cor1: #E0E9ED;
+    --Cor2: #303030;
+    --Cor3: #78C4E0;
+    --Cor4: #111111;
+    --Cor5: #FFFFFF; 
+    --cor6: #EE7878;
+    --Cor7: #7AE3DA;
+    --Cor8: #282828;
+    --Cor9: #0A7EA8;
+    --fonte1:"Roboto", sans-serif;
+    --fonte2:"Roboto Mono", monospace;
+}
+/*
+:root{
+    --Cor1: #012030;
+    --Cor2: #13678A;
+    --Cor3: #45C4B0;
+    --Cor4: #9AEBA3;
+    --Cor5: #DAFDBA;
+    --cor6: #0b4870;
+    --Cor7: #B2BEBF;
+    --Cor8: #486966;
+    --fonte1:"Roboto", sans-serif;
+    --fonte2:"Roboto Mono", monospace;
+}*/
+
+ 
+/* Cabecalho _______________________________________*/
+
+.cabecalho{
+    background-color: var(--Cor8);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3% 0% 0% 0%;
+}
+
+.cabecalho_botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho_botoes_word_withe1,
+.cabecalho_botoes_word_withe2{
+    text-decoration: none;
+    background-color: var(--Cor2);
+    padding: 5% 30%;
+    border-radius: 8px;
+    color: var(--Cor5);
+    font-size: 1.5rem;
+    font-family: var(--fonte1);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.cabecalho_botoes_word_withe1:hover{
+    text-decoration: none;
+    background-color: var(--Cor3);
+    padding: 5% 30%;
+    border-radius: 8px;
+    color: var(--Cor4);
+    font-size: 1.5rem;
+    font-family: var(--fonte1);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.cabecalho_botoes_word_withe2:hover{
+    text-decoration: none;
+    background-color: var(--Cor7);
+    padding: 5% 30%;
+    border-radius: 8px;
+    color: var(--Cor4);
+    font-size: 1.5rem;
+    font-family: var(--fonte1);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.cabecalho_logo{
+    padding: 5px;
+}
+
+/* _____________________________________________________*/
+/* Corpo _____________________________________________________*/
+.corpo{
+    background-color: var(--Cor1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.corpo_detalhe3{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+.info{background-color: var(--Cor1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7% 16%;
+    gap: 82px;
+}
+
+.corpo_info_nome{
+    font-size: 3rem;
+    font-family: var(--fonte2);
+    color: var(--Cor4);
+}
+
+.corpo_info_email{
+    font-size: 2rem;
+    font-family: var(--fonte2);
+    color: var(--Cor9);
+    padding-bottom: 1rem;
+}
+
+.corpo_info_entrar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.corpo_info_entrar_detalhe1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.corpo_info_entrar_botao{
+    text-decoration: none;
+    background-color: var(--Cor4);
+    color: var(--Cor5);
+    font-family: var(--fonte1);
+    padding: 15px 70px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+.corpo_info_entrar_botao:hover{
+    text-decoration: none;
+    background-color: var(--Cor7);
+    color: var(--Cor4);
+    font-family: var(--fonte1);
+    padding: 15px 70px;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+.corpo_foto{
+    width: 50%;
+}
+
+.corpo_info{
+    width: 50%;
+}
+/* _____________________________________________________*/
+/* Rodapé_____________________________________________________*/
+
+.rodape{
+    background-color: var(--Cor2);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodape_detalhe4{
+    padding: 15px;
+}
+
+
+@media (max-width:1200px) 
+/* _____________________________________________________*/
+/* Corpo _____________________________________________________*/
+{
+
+.info{
+    flex-direction: column-reverse;
+    padding: 26% 16%;
+    gap: 82px;
+}
+.corpo_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo_info_nome{
+    font-size: 2rem;
+}
+
+.corpo_info_email{
+    font-size: 1rem;
+}
+}
+
