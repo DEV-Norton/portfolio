@@ -242,13 +242,12 @@ body{
 .cabecalho_botoes_word_withe1,
 .cabecalho_botoes_word_withe2
 {
-    font-size: 30vw;
+    font-size: 2vw
 }
 
 .cabecalho_botoes_word_withe1:hover,
 .cabecalho_botoes_word_withe2:hover{
-    font-size: 5vw;
+    font-size: 2vw;
 }
-
 }
 
