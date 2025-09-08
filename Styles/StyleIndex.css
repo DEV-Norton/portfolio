@@ -239,5 +239,16 @@ body{
 .corpo_info_nome{
     font-size: 5vw;
 }
+.cabecalho_botoes_word_withe1,
+.cabecalho_botoes_word_withe2
+{
+    font-size: 5vw;
+}
+
+.cabecalho_botoes_word_withe1:hover,
+.cabecalho_botoes_word_withe2:hover{
+    font-size: 5vw;
+}
+
 }
 
