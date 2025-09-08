@@ -124,6 +124,7 @@ background-color:  var(--Cor1);
     align-items: flex-start;
     justify-content: space-between;
     padding: 9% 12%;
+    min-height: 100vh;
 }
 
 .corpo_inforcoes{
