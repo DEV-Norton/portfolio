@@ -121,7 +121,7 @@ background-color:  var(--Cor1);
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 7% 12%;
+    padding: 9% 12%;
 }
 
 .corpo_inforcoes{
@@ -231,6 +231,19 @@ background-color:  var(--Cor1);
 
 .corpo_logo1{
     width:  100%;              
+}
+
+/* _____________________________________________________*/
+/* Rodapé_____________________________________________________*/
+
+.rodape{
+    background-color: var(--Cor2);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rodape_detalhe4{
+    padding: 15px;
 }
 
 @media (max-width:1200px) 
