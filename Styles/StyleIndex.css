@@ -226,11 +226,14 @@ body{
 .cabecalho_botoes{
     width: 50%;
 }
-.cabecalho_logo,
-.github_logo,
-.linkedin_logo
+.cabecalho_logo
 {
     width: 10%;
+}
+
+.github_logo,
+.linkedin_logo{
+    width: 30%;
 }
 
 .cabecalho{
