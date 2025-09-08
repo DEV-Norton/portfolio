@@ -59,7 +59,7 @@ body{
 .cabecalho_botoes_word_withe2{
     text-decoration: none;
     background-color: var(--Cor2);
-    padding: 5% 30%;
+    padding: 5% 13%;
     border-radius: 8px;
     color: var(--Cor5);
     font-size: 1.5rem;
@@ -74,7 +74,7 @@ body{
 .cabecalho_botoes_word_withe1:hover{
     text-decoration: none;
     background-color: var(--Cor3);
-    padding: 5% 30%;
+    padding: 5% 13%;
     border-radius: 8px;
     color: var(--Cor4);
     font-size: 1.5rem;
@@ -89,7 +89,7 @@ body{
 .cabecalho_botoes_word_withe2:hover{
     text-decoration: none;
     background-color: var(--Cor7);
-    padding: 5% 30%;
+    padding: 5% 13%;
     border-radius: 8px;
     color: var(--Cor4);
     font-size: 1.5rem;

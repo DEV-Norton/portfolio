@@ -17,4 +17,18 @@
     --Cor8: #282828;
     --fonte1:"Roboto", sans-serif;
     --fonte2:"Roboto Mono", monospace;
-}    
+}
+
+
+.cabecalho{
+    background-color: var(--Cor1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_botoes_sobre_min,
+.cabecalho_botoes_profissional,
+.cabecalho_botoes_academico{
+    text-decoration: none;
+}
