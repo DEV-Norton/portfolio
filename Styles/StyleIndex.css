@@ -219,6 +219,7 @@ html,body{
 .corpo_foto{
     width: 80%;
     height: 80%;
+    padding-bottom: 30px;
 }
 .corpo_detalhe3_d3,
 .rodape_detalhe4{
