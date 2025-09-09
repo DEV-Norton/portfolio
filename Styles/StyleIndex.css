@@ -7,8 +7,10 @@
     
 }
 
-body{
+html,body{
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
  :root{
@@ -205,7 +207,7 @@ body{
 
 .info{
     flex-direction: column-reverse;
-    padding: 26% 8%;
+    padding: 20vh 8%;
     gap: 82px;
 }
 .corpo_info{
