@@ -208,7 +208,7 @@ html,body{
 
 .info{
     flex-direction: column-reverse;
-    padding: 8vh 8vw;
+    padding: 14vh 8vw;
     gap: 50%;
 }
 .corpo_info{
