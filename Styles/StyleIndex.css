@@ -208,7 +208,7 @@ html,body{
 
 .info{
     flex-direction: column-reverse;
-    padding: 18% 3%;
+    padding: 20% 3%;
     gap: 50%;
 }
 .corpo_info{
