@@ -179,10 +179,12 @@ html,body{
 
 .corpo_foto{
     width: 50%;
+    height: 50%;
 }
 
 .corpo_info{
     width: 50%;
+    height: 50%;
 }
 /* _____________________________________________________*/
 /* Rodapé_____________________________________________________*/
@@ -216,6 +218,7 @@ html,body{
 }
 .corpo_foto{
     width: 80%;
+    height: 80%;
 }
 .corpo_detalhe3_d3,
 .rodape_detalhe4{
