@@ -208,7 +208,7 @@ html,body{
 
 .info{
     flex-direction: column-reverse;
-    padding: 14vh 8vw;
+    padding: 8vh 8vw;
     gap: 50%;
 }
 .corpo_info{
@@ -218,8 +218,8 @@ html,body{
     align-items: center;
 }
 .corpo_foto{
-    width: 80%;
-    height: 80%;
+    width: 8vw;
+    height: 8vh;
 }
 .corpo_detalhe3_d3,
 .rodape_detalhe4{
