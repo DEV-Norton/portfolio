@@ -127,12 +127,12 @@ html,body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /*padding: 7% 16%;*/
+    padding: 14vh 8vw;
     gap: 82px;
 }
 
 .corpo_info_nome{
-    font-size: 3rem;
+    font-size: 3rem;    
     font-family: var(--fonte2);
     color: var(--Cor4);
 }
@@ -208,7 +208,7 @@ html,body{
 
 .info{
     flex-direction: column-reverse;
-    /*padding: 14% 8%;*/
+    padding: 14vh 8vw;
     gap: 50%;
 }
 .corpo_info{
