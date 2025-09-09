@@ -186,6 +186,9 @@ html,body{
     width: 50%;
     height: 50%;
 }
+.corpo_foto1{
+    width: 20%;
+}
 /* _____________________________________________________*/
 /* Rodapé_____________________________________________________*/
 
@@ -250,6 +253,9 @@ html,body{
 .cabecalho_botoes_word_withe1:hover,
 .cabecalho_botoes_word_withe2:hover{
     font-size: 5vw;
+}
+.corpo_foto1{
+    width: 20%;
 }
 }
 
