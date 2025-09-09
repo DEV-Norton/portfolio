@@ -127,7 +127,7 @@ html,body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 7% 16%;
+    /*padding: 7% 16%;*/
     gap: 82px;
 }
 
@@ -186,9 +186,7 @@ html,body{
     width: 50%;
     height: 50%;
 }
-.corpo_foto1{
-    width: 20%;
-}
+
 /* _____________________________________________________*/
 /* Rodapé_____________________________________________________*/
 
@@ -210,7 +208,7 @@ html,body{
 
 .info{
     flex-direction: column-reverse;
-    padding: 14% 8%;
+    /*padding: 14% 8%;*/
     gap: 50%;
 }
 .corpo_info{
@@ -254,8 +252,6 @@ html,body{
 .cabecalho_botoes_word_withe2:hover{
     font-size: 5vw;
 }
-.corpo_foto1{
-    width: 20%;
-}
+
 }
 
