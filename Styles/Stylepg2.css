@@ -194,4 +194,8 @@ align-items: flex-start
 .cabecalho_botao_voltar{
     width: 10%;
 }
+
+.corpo_informacoes_titulo_sm{
+    font-size: 3rem;
+}
 }
