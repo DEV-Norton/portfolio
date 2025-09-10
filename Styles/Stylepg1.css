@@ -317,8 +317,12 @@ background-color:  var(--Cor1);
     width: 50%;
 }
 .botao_voltar{
-    width: 10%;
+    width: 8%;
 }
+.cabecalho_voltar{
+    width: 80%;
+}
+
 
 .cabecalho_botoes_word_withe1,
 .cabecalho_botoes_word_withe2
