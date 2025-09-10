@@ -68,7 +68,7 @@ body{
 
 .corpo{
     color: var(--Cor1);
-
+    height: 100vh;
 }
 .corpo_informacoes_titulo_titulo{
     display: flex;
@@ -102,11 +102,54 @@ body{
     align-items: center;
     gap: 10px;
 }
+.d1{
+    background-image: url("../Assets/Detalhe11.png");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.d2{
+    background-image: url("../Assets/Detalhe12.png");
+    background-repeat: no-repeat;
+    background-position: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.d3{
+    background-image: url("../Assets/Detalhe 13.png");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    width: 100%;
+    height: 100%;
+}
+.Detalhe12{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  height: 50%;
+  max-width: 50%;
+  z-index: 0;
+  object-fit: cover;
+  pointer-events: none;
+}
+.Detalhe13{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  max-width: 50%;
+  z-index: 0;
+  object-fit: cover;
+  pointer-events: none;
+}
 
 .paragrafos{
     padding-left: 2%;
     width: 98%;
-    background-image: url("Assets/Group.png")
 }
 .text{
     padding: 1.5% 0% 1.5% 0%;
