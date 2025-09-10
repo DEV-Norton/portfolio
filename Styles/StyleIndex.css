@@ -112,7 +112,7 @@ html,body{
     background-color: var(--Cor1);
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh - 200px)
+    min-height: 90vh
 }
 
 .corpo_detalhe3{
@@ -220,7 +220,7 @@ html,body{
 .corpo_foto{
     width: 80%;
     height: 80%;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
 }
 .corpo_detalhe3_d3,
 .rodape_detalhe4{
