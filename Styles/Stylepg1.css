@@ -67,6 +67,8 @@ background-color:  var(--Cor1);
     padding: 5% 10%;
     border-radius: 8px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -81,6 +83,8 @@ background-color:  var(--Cor1);
     padding: 5% 10%;
     border-radius: 8px;
     display: flex;
+     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -94,6 +98,8 @@ background-color:  var(--Cor1);
     padding: 5% 10%;
     border-radius: 8px;
     display: flex;
+     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -107,6 +113,8 @@ background-color:  var(--Cor1);
     padding: 5% 10%;
     border-radius: 8px;
     display: flex;
+     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -299,5 +307,23 @@ background-color:  var(--Cor1);
 }
 .D_verde_titulo{
     font-size: 3rem;
+}
+
+.cabecalho_botoes{
+    width: 50%;
+}
+.botao_voltar{
+    width: 10%;
+}
+
+.cabecalho_botoes_word_withe1,
+.cabecalho_botoes_word_withe2
+{
+    font-size: 5vw
+}
+
+.cabecalho_botoes_word_withe1:hover,
+.cabecalho_botoes_word_withe2:hover{
+    font-size: 5vw;
 }
 }
