@@ -31,10 +31,10 @@ body{
     align-items: center;
     flex-direction: row;
     padding: 0% 0% 0% 5%;
+    white-space: nowrap
 }
 
 .cabecalho_botoes{
-    width: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -43,6 +43,7 @@ body{
 .cabecalho_botoes_profissional,
 .cabecalho_botoes_academico{
     text-decoration: none;
+    padding: 0% 5%;
     font-size: 1.5rem;
     font-family: var(--fonte1);
     color: var(--Cor8);
@@ -50,6 +51,7 @@ body{
 
 .cabecalho_botoes_sobre_min{
     text-decoration: none;
+    padding: 0% 5%;
     font-size: 1.5rem;
     font-family: var(--fonte1);
     color: var(--cor6);
