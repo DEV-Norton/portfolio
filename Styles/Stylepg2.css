@@ -190,7 +190,10 @@ align-items: flex-start
 }
 
 .cabecalho_botao_voltar{
-    width: 10%;
+    width: 8%;
+}
+.cabecalho_voltar{
+    width: 80%;
 }
 
 .corpo_informacoes_titulo_sm{
