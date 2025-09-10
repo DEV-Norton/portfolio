@@ -259,7 +259,8 @@ background-color:  var(--Cor1);
     align-items: center;
     padding: 7% 7%;
     gap: 3px;
-    min-height: 90vh
+    min-height: 90vh;
+    justify-content: flex-start
 }
  
 
