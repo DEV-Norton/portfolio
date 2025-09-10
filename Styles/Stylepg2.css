@@ -61,6 +61,27 @@ body{
     padding: 5px;
 }
 
+/* _____________________________________________________*/
+/* Corpo _____________________________________________________*/
+
+.corpo_informacoes_titulo_titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+.corpo_informacoes_titulo_sm{
+    color: var(--Cor3);
+    font-family: var(--fonte2);
+    font-size: 6rem;
+    padding-left: 1%;
+    padding-right: 2%;
+    white-space: nowrap
+}
+
+.corpo_informacoes_titulo_detalhe{
+    width: 60%;
+}
+
 
 @media (max-width:1200px) {
 
