@@ -274,13 +274,11 @@ background-color:  var(--Cor1);
 
 .corpo_logo{
     display: flex;
-    justify-content: center 
+    justify-content: center;
+    width:  50%;
+    padding-bottom: 20px;      
 }
 
-.corpo_logo1{
-    width:  50%;
-    padding-bottom: 20px;         
-}
 .corpo_inforcoes{
     width:  auto;
 
