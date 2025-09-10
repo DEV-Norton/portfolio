@@ -46,7 +46,7 @@ body{
 .cabecalho_botoes_profissional,
 .cabecalho_botoes_academico{
     text-decoration: none;
-    padding: 5% 10%;
+    padding: 5% 3%;
     font-family: var(--fonte1);
     color: var(--Cor8);
     display: flex;
@@ -56,7 +56,7 @@ body{
 
 .cabecalho_botoes_sobre_min{
     text-decoration: none;
-    padding: 5% 10%;
+    padding: 5% 3%;
     font-family: var(--fonte1);
     color: var(--cor6);
     display: flex;
