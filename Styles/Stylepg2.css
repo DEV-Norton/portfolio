@@ -198,4 +198,9 @@ align-items: flex-start
 .corpo_informacoes_titulo_sm{
     font-size: 3rem;
 }
+body{
+    background-color: var(--Cor8);
+    font-family: var(--fonte2);
+    font-size: 1rem;
+}
 }
