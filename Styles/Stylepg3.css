@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+:root{
+    --Cor1: #E0E9ED;
+    --Cor2: #303030;
+    --Cor3: #78C4E0;
+    --Cor4: #111111;
+    --Cor5: #FFFFFF;
+    --cor6: #EE7878;
+    --Cor7: #7AE3DA;
+    --Cor8: #282828;
+    --Cor9: #BE5858;
+    --cor10: #2C5754;
+    --cor11: #3F9FC2;
+    --fonte1:"Roboto", sans-serif;
+    --fonte2:"Roboto Mono", monospace;
+}
+
+body{
+    background-color: var(--Cor8);
+    font-family: var(--fonte2);
+    font-size: 1.875rem;
+}
+
+
+.cabecalho{
+    background-color: var(--Cor7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.3% 0% 0% 0%;
+    white-space: nowrap
+}
+
+.cabecalho_botoes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.cabecalho_botoes_academico,
+.cabecalho_botoes_sobre_min{
+    text-decoration: none;
+    padding: 5% 3%;
+    font-family: var(--fonte1);
+    color: var(--Cor8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho_botoes_profissional{
+    text-decoration: none;
+    padding: 5% 3%;
+    font-family: var(--fonte1);
+    color: var(--cor10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho_botoes_academico:hover{
+    text-decoration: none;
+    padding: 5% 3%;
+    font-family: var(--fonte1);
+    color: var(--cor11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho_botoes_sobre_min:hover{
+    text-decoration: none;
+    padding: 5% 3%;
+    font-family: var(--fonte1);
+    color: var(--Cor9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho_botao_voltar{
+    padding: 5px;
+}
+
+@media (max-width:1200px) {
+
+.cabecalho_botao_voltar{
+    width: 10%;
+}
+
+.cabecalho_botao_voltar{
+    width: 8%;
+}
+.cabecalho_voltar{
+    width: 80%;
+}
+}

@@ -15,6 +15,9 @@
     --cor6: #EE7878;
     --Cor7: #7AE3DA;
     --Cor8: #282828;
+    --Cor9: #BE5858;
+    --cor10: #2C5754;
+    --cor11: #3F9FC2;
     --fonte1:"Roboto", sans-serif;
     --fonte2:"Roboto Mono", monospace;
 }
@@ -27,7 +30,7 @@ body{
 
 
 .cabecalho{
-    background-color: var(--Cor1);
+    background-color: var(--cor6);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +61,27 @@ body{
     text-decoration: none;
     padding: 5% 3%;
     font-family: var(--fonte1);
-    color: var(--cor6);
+    color: var(--Cor9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho_botoes_profissional:hover{
+    text-decoration: none;
+    padding: 5% 3%;
+    font-family: var(--fonte1);
+    color: var(--cor10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho_botoes_academico:hover{
+    text-decoration: none;
+    padding: 5% 3%;
+    font-family: var(--fonte1);
+    color: var(--cor11);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +106,7 @@ body{
     
 }
 .corpo_informacoes_titulo_sm{
-    color: var(--Cor3);
+    color: var(--Cor9);
     font-family: var(--fonte2);
     font-size: 6rem;
     padding-left: 1%;
