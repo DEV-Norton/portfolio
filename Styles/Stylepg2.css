@@ -68,6 +68,8 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items:flex-end;
+    flex-direction: row;
+    
 }
 .corpo_informacoes_titulo_sm{
     color: var(--Cor3);
@@ -87,6 +89,13 @@ body{
 
 .cabecalho_botao_voltar{
     width: 10%;
+}
+.corpo_informacoes_titulo_titulo{
+flex-direction: column;
+align-items: flex-start
+}
+.corpo_informacoes_titulo_detalhe{
+    width: 80%;
 }
 
 }
