@@ -210,10 +210,10 @@ input:checked + label .descripiton{
     background-image: url('../Assets/B1.png');
 }
 .card[for="c2"] {
-    background-image: url('../Assets/B2.png');
+    background-image: url('../Assets/B3.png');
 }
 .card[for="c3"] {
-    background-image: url('../Assets/B3.png');
+    background-image: url('../Assets/B1.png');
 }
 
 @media (max-width:1200px) {
