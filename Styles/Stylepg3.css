@@ -175,7 +175,6 @@ max-width: 40%;
 
 @media (max-width:1200px) {
 
-
 .cabecalho_botao_voltar{
     width: 10%;
 }
@@ -190,5 +189,14 @@ max-width: 40%;
 .corpo_boston{
     display: flex;
     flex-direction:column;
+}
+.carrossel{
+max-width: 0%;
+}
+
+.slide
+{
+    display: flex;
+    flex-direction: row;
 }
 }
