@@ -124,6 +124,7 @@ max-width: 40%;
     width: 100%;
     height: 445px;
     display: flex;
+    flex-direction: column;
 }
 
 .slides input{
@@ -164,13 +165,13 @@ max-width: 40%;
 }
 
 #radio1:checked ~ .first{
-    margin-left: 0;
+    margin-bottom: -0%;
 }
 #radio2:checked ~ .first{
-    margin-left: -100%;
+    margin-bottom: -82%;
 }
 #radio3:checked ~ .first{
-    margin-left: -200%;
+    margin-bottom: -163%;
 }
 
 @media (max-width:1200px) {
