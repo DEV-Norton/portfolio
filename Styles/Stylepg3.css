@@ -259,4 +259,7 @@ body{
     width: 20px;
     margin: 15px;    
 }
+input:checked + label {
+    width: 400px;
+}
 }
