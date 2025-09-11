@@ -165,7 +165,7 @@ body{
 }
 
 .card > .row .icon {
-    background-color: #223;
+    background-color: var(--cor10);
     color: var(--Cor1);
     border-radius: 50%;
     width: 50px;
@@ -251,19 +251,21 @@ body{
     padding-left: 2%;
 }
 .wrapper {
-    width: 100%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center ;
 }
 
 .container{
-    height: 300px;
-    width: 80%;
+    width: 100%;
     display: flex;
-    flex-wrap:nowrap;
-    justify-content: start;
+    flex-wrap:wrap;
+    justify-content: center ;
 }
 
-
+.card > .row .icon {
+    width: 30px;
+    margin: 15px;    
+}
 }
