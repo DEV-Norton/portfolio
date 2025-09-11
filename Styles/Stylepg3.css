@@ -189,6 +189,10 @@ max-width: 40%;
     margin-bottom: -163%;
 }
 
+.text{
+    padding: 1.5% 0% 1.5% 0%;
+}
+
 @media (max-width:1200px) {
 
 .corpo_informacoes_titulo_profissional{
