@@ -258,8 +258,8 @@ body{
 }
 
 .container{
-    height: 460px;
-    width: 100%;
+    width: 80%;
+    width: 80%;
     display: flex;
     flex-wrap:wrap;
     justify-content: center ;
