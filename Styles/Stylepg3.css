@@ -260,6 +260,13 @@ body{
     margin: 15px;    
 }
 input:checked + label {
-    width: 400px;
+    width: 300px;
+}
+
+.container{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 }
