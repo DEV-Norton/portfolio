@@ -208,12 +208,15 @@ input:checked + label .descripiton{
 
 .card[for="c1"] {
     background-image: url('../Assets/B1.png');
+    height: 100%;
 }
 .card[for="c2"] {
     background-image: url('../Assets/B2.png');
+    height: 100%;
 }
 .card[for="c3"] {
     background-image: url('../Assets/B3.png');
+    height: 100%;
 }
 
 @media (max-width:1200px) {
@@ -232,7 +235,7 @@ input:checked + label .descripiton{
     
 .corpo_boston{
     display: flex;
-    flex-direction:column;
+    flex-direction:column-reverse   ;
     width: 100%;
 }
 .carrossel{
@@ -256,6 +259,4 @@ body{
     width: 20px;
     margin: 15px;    
 }
-
-
 }
