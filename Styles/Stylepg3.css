@@ -26,6 +26,8 @@ body{
     background-color: var(--Cor8);
     font-family: var(--fonte2);
     font-size: 1.875rem;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 
@@ -97,6 +99,7 @@ body{
 .corpo{
     color: var(--Cor1);
     height: 100vh;
+
 }
 .corpo_informacoes_titulo_titulo{
     display: flex;
