@@ -219,7 +219,7 @@ input:checked + label .descripiton{
 @media (max-width:1200px) {
 
 .corpo_informacoes_titulo_profissional{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .cabecalho_botao_voltar{
