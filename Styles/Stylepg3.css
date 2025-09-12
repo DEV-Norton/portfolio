@@ -366,11 +366,11 @@ body{
     padding-left: 2%;
 }
 
-.card > .row .icon {
+.wrapper .card > .row .icon {
     width: 20px;
     margin: 15px;    
 }
-input:checked + label {
+.wrapper input:checked + label {
     width: 300px;
 }
 
