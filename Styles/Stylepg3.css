@@ -139,6 +139,9 @@ body{
 .corpo_boston {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .wrapper {
@@ -339,6 +342,21 @@ body{
 .corpo_p1_text{
     color: var(--Cor2);
 }
+
+.corpo_boston_slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo_boston_texto{
+    padding-left: 2%;
+}
+
+.text-destaque{
+    background-color: var(--Cor3);
+}
+
 
 @media (max-width:1200px) {
 
