@@ -351,10 +351,17 @@ body{
 
 .corpo_boston_texto{
     padding-left: 2%;
+    background-image: url(../Assets/Detalhe18.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .text-destaque{
-    background-color: var(--Cor3);
+    background-color: var(--cor10);
+    padding: 0% 2%;
+    border-radius: 12px;
 }
 
 
