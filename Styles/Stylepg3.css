@@ -382,6 +382,7 @@ body{
 
 }
 
+
 .corpo_gramcell{
     display: flex;
     flex-direction:column-reverse   ;
@@ -401,5 +402,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.card_gram {
+    width: 20px;
+}
+.card {
+    width: 20px;
 }
 }
