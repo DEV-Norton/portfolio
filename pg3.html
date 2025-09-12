@@ -120,8 +120,37 @@
             </div>
         </div>
         </div>
+
         </div>
     </main>
-    <script src="Java/scriptpg3.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('input[name="slide_gram"]');
+    let current = 0;
+
+    function nextSlide() {
+      slides[current].checked = false;
+      current = (current + 1) % slides.length;
+      slides[current].checked = true;
+    }
+
+    setInterval(nextSlide, 3000);
+  });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('input[name="slide"]');
+    let current = 0;
+
+    function nextSlide() {
+      slides[current].checked = false;
+      current = (current + 1) % slides.length;
+      slides[current].checked = true;
+    }
+
+    setInterval(nextSlide, 3000);
+  });
+</script>
+
 </body>
 </html>
