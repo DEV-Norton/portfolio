@@ -379,6 +379,7 @@ input:checked + label {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .corpo_gramcell{
