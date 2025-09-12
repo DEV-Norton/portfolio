@@ -327,7 +327,17 @@ body{
 
 .card_gram[for="d3_gram"] {
     background-image: url('../Assets/G3.png');
-    height: 100%;
+    height: 100%;;
+}
+/* _____________________________________________________*/
+
+.corpo_p1{
+    background-repeat: no-repeat;
+    background-color: var(--Cor7);
+    padding: 2% 1% 2% 2%;
+}
+.corpo_p1_text{
+    color: var(--Cor2);
 }
 
 @media (max-width:1200px) {
