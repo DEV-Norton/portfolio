@@ -406,8 +406,10 @@ body{
 
 .card_gram {
     width: 15px;
+    margin: 0 1px;
 }
 .card {
     width: 15px;
+    margin: 0 1px;
 }
 }
